@@ -11,20 +11,10 @@
  * It is generally better to create a new file per style scope.
  *
  */
- @import "bootstrap";
+@import "bootstrap";
 
-//  @include media-breakpoint-up(xs) {
-     
-//  }
-//  @include media-breakpoint-up(sm) {
-     
-//  }
-//  @include media-breakpoint-up(md) {
-     
-//  }
-//  @include media-breakpoint-up(lg) {
-     
-//  }
-//  @include media-breakpoint-up(xl) {
+//  Variables
+@import "base/variables";
 
-//  }
+//  Partials - main css files
+@import "partials/layout/navigation";

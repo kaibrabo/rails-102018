@@ -16,7 +16,8 @@ gem 'puma', '~> 3.7'
 gem 'bootstrap-sass' # added
 gem 'bootstrap' # added
 gem 'sassc' # modified
-gem 'devise' # added 
+gem 'devise' # added
+gem 'bootstrap_form' # added 
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

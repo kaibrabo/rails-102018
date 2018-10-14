@@ -16,5 +16,13 @@
 //  Variables
 @import "base/variables";
 
+// Default styles
+@import "base/default";
+
 //  Partials - main css files
+@import "partials/signup";
 @import "partials/layout/navigation";
+
+// Media Queries for Responsive design
+@import "responsive/desktop.scss";
+@import "responsive/mobile.scss";

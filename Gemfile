@@ -21,7 +21,7 @@ gem 'bootstrap_form' # added
 gem 'devise' # added
 # Testing
 gem 'rspec-rails'
-gem 'factory_girl_rails'
+gem 'factory_bot_rails'
 gem 'rails-controller-testing'
 gem 'database_cleaner'
 
@@ -51,6 +51,8 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara'
   gem 'selenium-webdriver'
+
+  gem 'nyan-cat-formatter' # added spec
 end
 
 group :development do

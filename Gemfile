@@ -16,8 +16,16 @@ gem 'puma', '~> 3.7'
 gem 'bootstrap-sass' # added
 gem 'bootstrap' # added
 gem 'sassc' # modified
-gem 'devise' # added
 gem 'bootstrap_form' # added 
+# Authentication
+gem 'devise' # added
+# Testing
+gem 'rspec-rails'
+gem 'factory_bot_rails'
+gem 'rails-controller-testing'
+gem 'database_cleaner'
+# Formatter
+gem 'rufo'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -43,8 +51,11 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
+  gem 'capybara'
   gem 'selenium-webdriver'
+  gem 'geckodriver-helper' # Failure/Error: visit root_path Selenium::WebDriver::Error::WebDriverError:
+
+  gem 'nyan-cat-formatter' # added spec
 end
 
 group :development do

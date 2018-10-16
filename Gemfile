@@ -24,6 +24,8 @@ gem 'rspec-rails'
 gem 'factory_bot_rails'
 gem 'rails-controller-testing'
 gem 'database_cleaner'
+# Formatter
+gem 'rufo'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -51,6 +53,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara'
   gem 'selenium-webdriver'
+  gem 'geckodriver-helper' # Failure/Error: visit root_path Selenium::WebDriver::Error::WebDriverError:
 
   gem 'nyan-cat-formatter' # added spec
 end

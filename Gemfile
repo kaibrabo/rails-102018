@@ -14,7 +14,7 @@ gem 'pg'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass' # added
-gem 'bootstrap' # added
+# gem 'bootstrap' # added
 gem 'sassc' # modified
 gem 'bootstrap_form' # added 
 # Authentication

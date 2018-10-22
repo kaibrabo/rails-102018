@@ -21,7 +21,7 @@ gem 'bootstrap_form' # added
 gem 'devise' # added
 # Testing
 gem 'rspec-rails'
-gem 'factory_bot_rails'
+gem 'factory_bot_rails' # https://www.rubydoc.info/gems/factory_bot/file/GETTING_STARTED.md
 gem 'rails-controller-testing'
 gem 'database_cleaner'
 # Formatter

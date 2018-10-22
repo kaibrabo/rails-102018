@@ -1,4 +1,4 @@
-require 'rails_helper'
+require "rails_helper"
 
 RSpec.describe Category, type: :model do
   context "Associations" do
@@ -7,5 +7,4 @@ RSpec.describe Category, type: :model do
       expect(association.macro).to eq :has_many
     end
   end
-  
 end

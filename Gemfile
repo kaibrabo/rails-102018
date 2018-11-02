@@ -14,16 +14,18 @@ gem 'pg'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass' # added
-gem 'bootstrap' # added
+# gem 'bootstrap' # added
 gem 'sassc' # modified
 gem 'bootstrap_form' # added 
 # Authentication
 gem 'devise' # added
 # Testing
 gem 'rspec-rails'
-gem 'factory_bot_rails'
+gem 'factory_bot_rails' # https://www.rubydoc.info/gems/factory_bot/file/GETTING_STARTED.md
 gem 'rails-controller-testing'
 gem 'database_cleaner'
+# Fake Data
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 # Formatter
 gem 'rufo'
 

@@ -4,6 +4,11 @@
 
 `bundle install`
 
+# Development only:
+To populate with faker data:
+
+`rails db:seed`
+
 ## Start server:
 
 `rails s`

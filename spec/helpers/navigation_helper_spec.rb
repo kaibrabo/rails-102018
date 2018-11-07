@@ -3,7 +3,8 @@ require 'rails_helper'
 RSpec.describe NavigationHelper, :type => :helper do
 
     context 'signed in user' do
-        before(:each) { helper.stub(:user_signed_in?).and_return(true) }
+        # before(:each) { helper.stub(:user_signed_in?).and_return(true) }
+        before(:each) { allow(helper).to receive(:user_signed_in?).and_return(true) }
         
         context '#collapsible_links_partials_path' do
             it 'returns signed_in_links partials path' do

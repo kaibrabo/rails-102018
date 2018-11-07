@@ -66,7 +66,7 @@ RSpec.configure do |config|
   end
 
   Capybara.register_driver :selenium do |app| # added
-    Capybara::Selenium::Driver.new(app, :browser => :firefox)
+    Capybara::Selenium::Driver.new(app, :browser => :chrome)
   end
   # RSpec Rails can automatically mix in different behaviours to your tests
   # based on their file location, for example enabling you to call `get` and

@@ -28,6 +28,8 @@ gem 'database_cleaner'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 # Formatter
 gem 'rufo'
+# Github Vulnerability
+gem 'loofah'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
